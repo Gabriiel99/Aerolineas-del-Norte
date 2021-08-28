@@ -4,15 +4,15 @@
 **DOWNLOAD APPLICATION .JAR :** https://www.mediafire.com/file/3c9ae9w6ob1ebz4/AEROLINEAS_DEL_NORTE.jar/file 
 
 
-1. [Introduction](#Introduction)
-2. [Home screen](#Home-screen)
-3. [Get Tickets](#Get-Tickets)
-4. [Flight details](#Flight-details)
-5. [Payment](#Payment)
-6. [Contact information](#Contact-information)
-7. [Itinerary](#Itinerary)
+* [Introduction](#Introduction)
+* [Home screen](#Home-screen)
+* [Get Tickets](#Get-Tickets)
+* [Flight details](#Flight-details)
+* [Payment](#Payment)
+* [Contact information](#Contact-information)
+* [Itinerary](#Itinerary)
 
- ## 1. Introduction
+ ## Introduction
 
 Aerolineas del Norte Cyp is a system designed to get flight tickets to somewhere in the north of the country Argentina, for this we have the Java programming language and several extensions related to it. The idea arose at the beginning of years when there was still no experience of using this language and a working prototype was made, very easy to achieve. With the passage of time this project was resumed but with the aim of perfecting it with what was learned during the year and presenting it for the final work of the Programming subject. Some of the improvements that were made were: better graphical interface, optimization when processing flight information, etc.
 This software has 6 JFrames that we will describe throughout this writing.
@@ -23,7 +23,7 @@ This software has 6 JFrames that we will describe throughout this writing.
 * Buttons Minimize, Restore (disabled), Move, Close.
 * Window located in the central part of the screen.
 
-## 2. Home Screen
+## Home Screen
 
 ![Texto alternativo](https://scontent.ftuc1-1.fna.fbcdn.net/v/t1.6435-9/234773660_5027744483958826_7741103690397886421_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=b9115d&_nc_ohc=5veQ1_n9MkQAX_zFmnr&tn=ICuuEgcaK7k8X9f1&_nc_ht=scontent.ftuc1-1.fna&oh=46dd5e38160de231f931cc561ca9dd4b&oe=614C74CD)
 
@@ -36,7 +36,7 @@ The screen is composed of a Background Image that contains the title and a butto
 				abrir.setVisible(true);	      
 				Inicio1.this.dispose();        
 
-## 3. Get Tickets
+## Get Tickets
 
 ![Texto alternativo](https://scontent.ftuc1-1.fna.fbcdn.net/v/t1.6435-9/240590687_5027744433958831_2572694117845748116_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=b9115d&_nc_ohc=iYWXJAtkn_sAX8lYqNg&tn=ICuuEgcaK7k8X9f1&_nc_ht=scontent.ftuc1-1.fna&oh=57b207031151995b9acb79c5cb5fa2f1&oe=614E0C66)
 
@@ -192,7 +192,7 @@ It presents the same security case as the one above, it must comply with these p
 
 ```
 
-## 4. Flight details
+## Flight details
 
 ![Texto alternativo](https://scontent.ftuc1-1.fna.fbcdn.net/v/t1.6435-9/240582285_5027744393958835_4283612462927093839_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=b9115d&_nc_ohc=o2SXROLY9bsAX_e_eCV&_nc_ht=scontent.ftuc1-1.fna&oh=f73e7127e1576b5b351b2326afa4f12b&oe=614C587F)
 
@@ -263,7 +263,7 @@ Finally we have the Continue button which will send us to another screen passing
 			}	
 ```
 
-## 5. Payment
+## Payment
 
 This Frame is designed to make card or cash payments. We achieve this thanks to 2 JRadioButton, we also have the reservation number (JLabel) and the total (JTextField), at the bottom with the Continue button that fulfills the same function despite the user's choice.
 
@@ -322,7 +322,7 @@ if(operacion8=="" && operacion9=="" ){
 						Pago1.this.dispose();
 ```
 
-## 6. Contact information
+## Contact information
 
 In this frame it is requested to fill in the field of the main user for future contacts or flight controls. The fields must all be completed to pass the security processes of said software.
 
@@ -363,7 +363,7 @@ However, if the data was entered correctly, it will show us the alert and that o
 
 ![Texto alternativo](https://scontent.ftuc1-1.fna.fbcdn.net/v/t1.6435-9/240637637_5027744810625460_1740930542085103974_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=b9115d&_nc_ohc=ADcHotO34K8AX-4_B8n&_nc_ht=scontent.ftuc1-1.fna&oh=5f8816c0ec6df144b7e66e6012579d92&oe=614ECA9D)
 
-## 7. Itinerary
+## Itinerary
 
 This and last Jframe has the title Itinerio (JLabel) reservation number (Jlabel), an animated gif and a JPanel where it stores all the data previously entered, especially the contact information. Depending on the purchase, it will let us edit the flight departure time.
 
